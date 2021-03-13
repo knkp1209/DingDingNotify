@@ -9,6 +9,8 @@ DingDingNotify 是 PHP 开发的钉钉群机器人通知
 2、添加一个自定义的群机器人，安全设置选择 加密
 
 ## 使用方法
+
+```
 $dingDingConfig = new Config();
 $dingDingConfig->setWebhook('钉钉群机器人地址');
 $dingDingConfig->setSecret('密钥');
@@ -19,4 +21,5 @@ $data = [
         ],
     ];
 (new Notify())->send($dingDingConfig, $data);
+```
 
