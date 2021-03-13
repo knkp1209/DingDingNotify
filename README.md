@@ -11,6 +11,9 @@ DingDingNotify 是 PHP 开发的钉钉群机器人通知
 ## 使用方法
 
 ```
+use Yangwenhang\DingDingNotify\Config;
+use Yangwenhang\DingDingNotify\Notify;
+
 $dingDingConfig = new Config();
 $dingDingConfig->setWebhook('钉钉群机器人地址');
 $dingDingConfig->setSecret('密钥');
