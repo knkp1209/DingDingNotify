@@ -1,0 +1,21 @@
+{
+    "name": "yangwenhang/dd-notify",
+    "description": "钉钉群机器人通知",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YangWenHang",
+            "email": "1203860880@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Yangwenhang\\DingDingNotify\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.1@dev"
+    }
+}
